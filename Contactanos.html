@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/Fonts/Piedra/Piedra-Regular.ttf">
+  <link rel="stylesheet" href="bootstrap/css/EstilosPersonalizados.css">
+  <script src="https://kit.fontawesome.com/9eb0b1cc5e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="containe-lg sticky-top">
+
+    <div class="containe-lg sticky-top" style="background-color: black;">
+
+      <nav class="navbar navbar-expand-lg navbar-dark  scrolling-navbar fixed-top sticky-top">
+        <a class="navbar-brand" href="Inicio.html"><img src="Img/logo/logocyg.png" width="250px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link Texto-blanco font-weight-bold" href="Inicio.html">Inicio <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link Texto-blanco font-weight-bold" href="Nosotros.html">Productos</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Texto-blanco font-weight-bold " href="Contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Texto-blanco font-weight-bold " href="#">¿Quienes somos?</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="container bg-white p-3">
+    <form action="guardar.php" method="POST">
+      <div class="form-group">
+        <label for="Nombre">Nombre completo</label>
+        <input name="Nombre"  id="Nombre" type="text" class="form-control" placeholder="Ingrese nombre completo" required>
+      </div>
+      <div class="form-group">
+        <label for="mail">Correo electrónico</label>
+        <input  name="mail" id="mail" class="form-control" type="email" placeholder="Ingrese el correo electrónico" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input  name="telefono" id="telefono" class="form-control" type="number" placeholder="Teléfono" required>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" class="form-control" style="height: 130px;"></textarea>
+      </div>
+      <div>
+        <input type="submit" class="btn btn-success" value="Enviar">
+      </div>
+    </form>
+  </div>
+  <div style="background-color: black;">
+    <div class="footer" style="background-color: black; color: red; font-family: 'Times New Roman', Times, serif;">
+
+      <div class="col-md-3">
+
+        <h1>Contacto</h1>
+        <p style="color: white;">Carrera 85 BIS 52 A 49</p>
+        <p style="color: white;">Bogotá D.C, Colombia</p>
+        <p style="color: white;">3217000521</p>
+        <p style="color: white;">3217000521</p>
+
+
+
+      </div>
+
+
+      <div class="col-md-3">
+        <h1>Links Rápidos</h1>
+        <p class="linkc"><a href="Inicio.html">Inicio</p></a>
+        <p class="linkc"><a href="#">Productos</p></a>
+        <p class="linkc"><a href="#">Contantanos</p></a>
+        <p class="linkc"><a href="Nosotros.html">¿Quienes somos?</p></a>
+
+
+
+      </div>
+
+
+
+
+
+      <div class="col-md-3">
+        <h1>Redes Sociales</h1>
+        <div class="social-media">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+
+
+
+
+
+
+
+          </ul>
+        </div>
+
+
+
+      </div>
+
+      <div class="col-md-3">
+        <h1>¿Quieres recibir novedades?</h1>
+        <input type="text" name="subcribe" placeholder="Correo" class="novedades"><button
+          class="btn btn-success novedades">Enviar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

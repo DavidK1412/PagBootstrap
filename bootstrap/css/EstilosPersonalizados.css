@@ -1,0 +1,51 @@
+.Texto-blanco{
+    color: white !important ;
+}
+.My-background{
+    background-color: white;
+}
+.colortexto1{
+    font-family: 'Inconsolata', monospace;
+    color: black !important;
+    text-align: center;
+}
+.negro{
+    background: black;
+}
+.active .nav-item{
+    color: rgba(255, 0, 0, 0.63) !important;
+}
+.text-right{
+    text-align: right;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.novedades{
+    box-sizing: unset !important;
+}
+.linkc a {
+    color:white;
+    text-decoration: none;
+}
+.social-media ul{
+    display: inline-block;
+}
+.social-media ul li{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.social-media ul li a{
+    font-size: 20px;
+    color: white;
+}
+.social-media ul li a:hover{
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .ocultar-div{
+    display: none;
+    }
+    }
